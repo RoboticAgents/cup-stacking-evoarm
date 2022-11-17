@@ -1,10 +1,8 @@
-# Project Proposal by Add Team Member Names
+# Trang Hoang and Evelyn Griffith
 
 ## Proposed Project Idea
 
-TODO: Clearly describe your idea for a final project, including what robot you plan to use, what application you focusing on and why, and include any background references you used to develop the idea for your project (links are okay).
-
-
+Clearly describe your idea for a final project, including what robot you plan to use, what application you focusing on and why, and include any background references you used to develop the idea for your project (links are okay).
 
 ## Acceptance Criteria
 
