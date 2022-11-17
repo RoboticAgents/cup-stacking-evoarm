@@ -10,11 +10,11 @@ For this final project, Trang and I will be attempting to get the EvoarmMini334 
 
 In a bulleted list, include predefined requirements that must be met for your project to be considered complete. You must identify at least five requirements for your robotic system to satisfy the goals of the project you are setting. These requirements must be specific, easily verifiable, and be an important part of the project's success. For example, for a robot delivery system, some of the requirements might include building correct map of a specific environment, correctly delivering items to the location, and correctly returning to its base location.
 
-- TODO
-- TODO
-- TODO
-- TODO
-- TODO
+- The robot must be able to pick up a cup
+- The robot must be able to place down a cup
+- The robot must be able to stack one cup on top of two preplaced cups
+- The robot must be able to manuver around cups that are already stacked without knocking them over
+- The robon must return to its home position after stacking six cups into a cup tower
 
 ## Feasibility
 
