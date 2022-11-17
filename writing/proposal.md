@@ -1,8 +1,10 @@
-# Project Proposal by Add Team Member Names
+# Project Proposal by Evelyn Griffith and Trang Hoang
 
 ## Proposed Project Idea
 
-TODO: Clearly describe your idea for a final project, including what robot you plan to use, what application you focusing on and why, and include any background references you used to develop the idea for your project (links are okay).
+Clearly describe your idea for a final project, including what robot you plan to use, what application you focusing on and why, and include any background references you used to develop the idea for your project (links are okay).
+
+For this final project, Trang and I will be attempting to get the EvoarmMini334 to stack a series of pixie cups into a tower and then knock it over. This idea was thought of after getting the robot arm to stack a set of three provided blocks. We thought that this 
 
 ## Acceptance Criteria
 
