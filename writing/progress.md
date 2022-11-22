@@ -1,8 +1,9 @@
-# Progress Report by Add Team Member Names
+# Team member: Trang Hoang, Evelyn
 
 ## Completed Prototype
 
 TODO: Describe your working prototype: what can your robot currently do?
+We have the new motor and the gripper works well. Our robot can stack the first 4 cups now.  
 
 ## Remaining Work
 
