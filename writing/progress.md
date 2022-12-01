@@ -62,6 +62,7 @@ sequence = [
      { "command": "y:-80","delay": 1.0  },
      { "command": "e:+55","delay": 1.0  }, # fifth cup placed
 ]
+```
 
 ## Remaining Work
 
