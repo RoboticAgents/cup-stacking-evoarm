@@ -66,4 +66,4 @@ sequence = [
 
 ## Remaining Work
 
-TODO: Describe what needs to be completed in order for your project to satisfy its acceptance criteria
+TODO: Describe what needs to be completed in order for your project to satisfy its acceptance criteria.
