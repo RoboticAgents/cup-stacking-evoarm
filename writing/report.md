@@ -17,10 +17,10 @@ references (links are okay) to all resources you have used.
 
 In order to run this project one must:
 
-1.) Obtain the required Evoarmminni from the Allegheny
+1) Obtain the required Evoarmminni from the Allegheny
 ALIC Lab (or obtain and build a new Evoarm Mini Model)
 
-2.) Plug in the robot to a reliable outlet
+2) Plug in the robot to a reliable outlet
     - making sure that all of the wiring is set up
     correctly as the 334 model has the tendency to have wires
     that disconnect.
@@ -28,7 +28,7 @@ ALIC Lab (or obtain and build a new Evoarm Mini Model)
     indication that it is on and all the wires are working correctly.
     (usually this is some form of motion that gets it to its home position).
 
-3.) Now you should connect your laptop to the robot wifi connection
+3) Now you should connect your laptop to the robot wifi connection
     - Turn the wifi on your computer off and back on
     (just to give it the chance to detect new networks).
     - look for a wifi connection called `Evoarmmini334` or
@@ -37,30 +37,30 @@ ALIC Lab (or obtain and build a new Evoarm Mini Model)
     - click on that wifi connection and give it a few second to fully connect
     - Once connected it should say something like: `No internet, secured`
 
-4.) Now you can connect to the robot's online interface
+4) Now you can connect to the robot's online interface
 by typing this in your browser `http://10.10.0.1:9072/`
 
-5.) From there an interfact should pop up that allows
+5) From there an interfact should pop up that allows
 you to manually drive the robot along with several other
 tabs along the top of the screen.
 
-6.) Type on the `Apps` tab and you will notice that a list
+6) Type on the `Apps` tab and you will notice that a list
 of different applications for running the evoarm come up.
 
-7.) For one of these apps (preferably one written in python) scroll
+7) For one of these apps (preferably one written in python) scroll
 to the far right hand side of the screen and click on the
 little box that says `edit`.
 
-8.) Once you're there you will see a box that says `name`
+8) Once you're there you will see a box that says `name`
 Rename the task to `CupStacking.py` and click either `save`
 or `save a copy`. This will create a new document back on the apps
 screen that you can edit.
 
-9.) Click on the same `edit` button for `CupStacking` and clear
+9) Click on the same `edit` button for `CupStacking` and clear
 whatever is in the contents section of the app.
     - make sure that this is a python file
 
-10.) Paste this code block into the section that you just cleared:
+10) Paste this code block into the section that you just cleared:
 
 ```python
 #example
@@ -142,11 +142,11 @@ sequence = [
 ]
 ```
 
-11.) From here you should be able to press the home button
+11) From here you should be able to press the home button
 to make sure that the robot is in its home position and
 then run the code using the play button in the top left corner.
 
-12.) Things to note:
+12) Things to note:
     - Due to the hardware being inconsistent, you
     may have to make adjustments to the code.
     - When we did this project, we decided to cut out
@@ -155,7 +155,7 @@ then run the code using the play button in the top left corner.
     on a box because the robot arm wasn't able to move all the way
     to the ground to place the cups.
 
-13.) Happy Cup Stacking!
+13) Happy Cup Stacking!
 
 ## Experimental Results
 
@@ -173,7 +173,7 @@ our discussions in class, please provide answers for
 the following questions as related to the project you chose
 to implement:
 
-1. Who would typically make the technology of the similar
+1) Who would typically make the technology of the similar
 type as your project? Why?
 
 - I think a factory might use code similar to this with
@@ -182,7 +182,7 @@ or blocks in a pyramid for shipment or storage. They might not
 have the robot stack things in this way, but the similarities
 are still present.
 
-2. Who are the intended users of this robotic
+2) Who are the intended users of this robotic
 application? How does this technology benefit them?
 
 - I think the intended users of this application could
@@ -194,7 +194,7 @@ I said in the previous question, I do think that this application
 has a lot of potential for factory implementation because it would
 allow them to stack things in an organized way.
 
-3. Who is not supposed to use this technology? Why?
+3) Who is not supposed to use this technology? Why?
 
 - I don't think there is anyone that shouldn't
 use this technology. It is meant to be more of a
@@ -205,7 +205,7 @@ they should consider how their materials would be effected by
 it and how it would effect those materials to be stacked in a
 tower-like structure instead of however they were to usually package it.
 
-4. How can the type of robotic application implemented in your
+4) How can the type of robotic application implemented in your
 project cause harm?
 
 - I think that it could cause harm in factories if it took
@@ -213,7 +213,7 @@ away jobs. I also think it could potentially harm materials
 or people if it was used in a factory setting and not adjusted
 for that factory's specific needs.
 
-5. What solutions can be developed to avoid the harm
+5) What solutions can be developed to avoid the harm
 caused by this type of technology or to fix the harm?
 
 - I think that in order to fix the problem of this technology,
