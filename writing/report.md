@@ -142,11 +142,11 @@ sequence = [
 ]
 ```
 
-11) From here you should be able to press the home button
+1) From here you should be able to press the home button
 to make sure that the robot is in its home position and
 then run the code using the play button in the top left corner.
 
-12) Things to note:
+2) Things to note:
     - Due to the hardware being inconsistent, you
     may have to make adjustments to the code.
     - When we did this project, we decided to cut out
@@ -155,7 +155,7 @@ then run the code using the play button in the top left corner.
     on a box because the robot arm wasn't able to move all the way
     to the ground to place the cups.
 
-13) Happy Cup Stacking!
+3) Happy Cup Stacking!
 
 ## Experimental Results
 
