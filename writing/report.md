@@ -40,7 +40,7 @@ ALIC Lab (or obtain and build a new Evoarm Mini Model)
 4) Now you can connect to the robot's online interface
 by typing this in your browser `http://10.10.0.1:9072/`
 
-5) From there an interfact should pop up that allows
+5) From there an interface should pop up that allows
 you to manually drive the robot along with several other
 tabs along the top of the screen.
 
