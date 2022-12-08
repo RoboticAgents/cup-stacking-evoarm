@@ -22,7 +22,7 @@ In order to run this project one must:
 4.) Now you can connect to the robot's online interface by typing this in your browser `http://10.10.0.1:9072/`
 5.) From there an interfact should pop up that allows you to manually drive the robot along with several other tabs along the top of the screen
 6.) Type on the `Apps` tab and you will notice that a list of different applications for running the evoarm come up.
-7.) For one of these apps (preferably one written in python) scroll to the far right hand side of the screen and click on the little box that says `edit`. 
+7.) For one of these apps (preferably one written in python) scroll to the far right hand side of the screen and click on the little box that says `edit`.
 8.) Once you're there you will see a box that says `name` Rename the task to `CupStacking.py` and click either `save` or `save a copy`. This will create a new document back on the apps screen that you can edit.
 9.) Click on the same `edit` button for `CupStacking` and clear whatever is in the contents section of the app.
     - make sure that this is a python file
@@ -107,6 +107,12 @@ sequence = [
      { "command": "y:+60","delay": 1.0  }
 ]
 ```
+
+11.) From here you should be able to press the home button to make sure that the robot is in its home position and then run the code using the play button in the top left corner.
+12.) Things to note:
+    - Due to the hardware being inconsistent, you may have to make adjustments to the code.
+    - When we did this project, we decided to cut out little circles of cardboard so that the cups wouldn't shift around as they landed. We also decided to prop the cup stack on a box because the robot arm wasn't able to move all the way to the ground to place the cups.
+13.) Happy Cup Stacking!
 
 ## Experimental Results
 
