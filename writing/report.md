@@ -6,7 +6,7 @@ TODO: Describe the completed project. Provide motivation for your project, appli
 
 ## Project Implementation Details
 
-TODO: First, outline all steps one must take to run your project, including any needed installations. Then describe **all** steps you took to implement the task, including all non-technical and technical details. Please include references (links are okay) to all resources you have used.
+First, outline all steps one must take to run your project, including any needed installations. Then describe **all** steps you took to implement the task, including all non-technical and technical details. Please include references (links are okay) to all resources you have used.
 
 In order to run this project one must:
 
