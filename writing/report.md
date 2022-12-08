@@ -6,8 +6,7 @@ Describe the completed project. Provide motivation for your project, application
 
 ## Project Implementation Details
 
-First, outline all steps one must take to run your project, including any needed installations. Then describe **all** 
-steps you took to implement the task, including all non-technical and technical details. Please include references (links are okay) to all resources you have used.
+First, outline all steps one must take to run your project, including any needed installations. Then describe **all** steps you took to implement the task, including all non-technical and technical details. Please include references (links are okay) to all resources you have used.
 
 In order to run this project one must:
 
@@ -120,66 +119,47 @@ sequence = [
 ]
 ```
 
-11.) From here you should be able to press the home button to make sure that the robot is in its home position and then run the code using the play button 
-in the top left corner.
+11.) From here you should be able to press the home button to make sure that the robot is in its home position and then run the code using the play button in the top left corner.
 
 12.) Things to note:
     - Due to the hardware being inconsistent, you may have to make adjustments to the code.
-    - When we did this project, we decided to cut out little circles of cardboard so that the cups wouldn't shift around as they landed. We also 
-    decided to prop the cup stack on a box because the robot arm wasn't able to move all the way to the ground to place the cups.
+    - When we did this project, we decided to cut out little circles of cardboard so that the cups wouldn't shift around as they landed. We also decided to prop the cup stack on a box because the robot arm wasn't able to move all the way to the ground to place the cups.
 
 13.) Happy Cup Stacking!
 
 ## Experimental Results
 
-Conduct at least three experiments with your completed implementation, where something is varied in each experiment (for example changes in the environment). 
-Produce visual representation of these experiments (pictures or videos). Describe your observations of the outcome of these experiments (how did the robot 
-behave in these experiments? were there variations?).
+Conduct at least three experiments with your completed implementation, where something is varied in each experiment (for example changes in the environment). Produce visual representation of these experiments (pictures or videos). Describe your observations of the outcome of these experiments (how did the robot behave in these experiments? were there variations?).
 
 ## Ethical Implications
 
-Based on your experiences with the project and from our discussions in class, please provide answers for the following questions as related to the 
-project you chose to implement:
+Based on your experiences with the project and from our discussions in class, please provide answers for the following questions as related to the project you chose to implement:
 
 1. Who would typically make the technology of the similar type as your project? Why?
 
-- I think a factory might use code similar to this with a robotic arm if they were trying to stack certain materials or blocks in a 
-pyramid for shipment or storage. They might not have the robot stack things in this way, but the similarities are still present.
+- I think a factory might use code similar to this with a robotic arm if they were trying to stack certain materials or blocks in a pyramid for shipment or storage. They might not have the robot stack things in this way, but the similarities are still present.
 
 2. Who are the intended users of this robotic application? How does this technology benefit them?
 
-- I think the intended users of this application could honestly be children. The code is complex, but it would be a really great way to get 
-them to experience robotics in a way that shows something familiar to them (I know that I did a lot of cup stacking when I was little). However, like I 
-said in the previous question, I do think that this application has a lot of potential for factory implementation because it would allow them to stack things 
-in an organized way.
+- I think the intended users of this application could honestly be children. The code is complex, but it would be a really great way to get them to experience robotics in a way that shows something familiar to them (I know that I did a lot of cup stacking when I was little). However, like I said in the previous question, I do think that this application has a lot of potential for factory implementation because it would allow them to stack things in an organized way.
 
 3. Who is not supposed to use this technology? Why?
 
-- I don't think there is anyone that shouldn't use this technology. It is meant to be more of a fun game than anythything else and I think that that is 
-something that everyone should be allowed to experience, but I also think that if factories were to start using this code, they should consider how their 
-materials would be effected by it and how it would effect those materials to be stacked in a tower-like structure instead of however they were to usually package it.
+- I don't think there is anyone that shouldn't use this technology. It is meant to be more of a fun game than anythything else and I think that that is something that everyone should be allowed to experience, but I also think that if factories were to start using this code, they should consider how their materials would be effected by it and how it would effect those materials to be stacked in a tower-like structure instead of however they were to usually package it.
 
 4. How can the type of robotic application implemented in your project cause harm?
 
-- I think that it could cause harm in factories if it took away jobs. I also think it could potentially harm materials or people if it was used in a 
-factory setting and not adjusted for that factory's specific needs.
+- I think that it could cause harm in factories if it took away jobs. I also think it could potentially harm materials or people if it was used in a factory setting and not adjusted for that factory's specific needs.
 
 5. What solutions can be developed to avoid the harm caused by this type of technology or to fix the harm?
 
-- I think that in order to fix the problem of this technology, new jobs need to be created that are things that only humans can do.
-That or I think this robot implementation should only be used if there are no people willing to do that labor-intensive job anymore. 
-I also think that making sure that this technology is altered for each specific factory environment is very important because it would help to keep 
-safety and efficiency levels in a good place.
+- I think that in order to fix the problem of this technology, new jobs need to be created that are things that only humans can do. That or I think this robot implementation should only be used if there are no people willing to do that labor-intensive job anymore. I also think that making sure that this technology is altered for each specific factory environment is very important because it would help to keep safety and efficiency levels in a good place.
 
 ## Team Working Strategy
 
-Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions
-of each team member.
+Describe the details of your team working strategy, specifically explain how did you complete this work as a team and describe the specific contributions of each team member.
 
-- For this project, our team decided to just do everything together. We always met up to work on tasks together and we were able to create the
-code as well as fix hardware issues together. Trang was very good at fixing the hardware issues and Evelyn was very good at doing the coding, but
-both of us were present in order to help with those issues as well as add our opinions when making decisions regarding the project. Overall, I think
-we worked very well together and were able to accomplish a lot!
+- For this project, our team decided to just do everything together. We always met up to work on tasks together and we were able to create the code as well as fix hardware issues together. Trang was very good at fixing the hardware issues and Evelyn was very good at doing the coding, but both of us were present in order to help with those issues as well as add our opinions when making decisions regarding the project. Overall, I think we worked very well together and were able to accomplish a lot!
 
 ## Challenges and Learning Experiences
 
