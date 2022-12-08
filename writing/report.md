@@ -14,7 +14,7 @@ In order to run this project one must:
 
 2.) Plug in the robot to a reliable outlet
     - making sure that all of the wiring is set up correctly as the 334 model has the tendency to have wires that disconnect
-    - If the robot is working appropriately it will give you an indication that it is on and all the wires are working correctly 
+    - If the robot is working appropriately it will give you an indication that it is on and all the wires are working correctly.
     (usually this is some form of motion that gets it to its home position).
 
 3.) Now you should connect your laptop to the robot wifi connection
