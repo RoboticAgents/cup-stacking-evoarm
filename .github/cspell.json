@@ -29,6 +29,7 @@
         "sheetshuttle",
         "pluginbase",
         "teleop"
+        "wifi",
     ],
     "ignorePaths": [
         ".github/**"
