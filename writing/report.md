@@ -182,7 +182,7 @@ or blocks in a pyramid for shipment or storage. They might not
 have the robot stack things in this way, but the similarities
 are still present.
 
-2) Who are the intended users of this robotic
+1) Who are the intended users of this robotic
 application? How does this technology benefit them?
 
 - I think the intended users of this application could
@@ -194,7 +194,7 @@ I said in the previous question, I do think that this application
 has a lot of potential for factory implementation because it would
 allow them to stack things in an organized way.
 
-3) Who is not supposed to use this technology? Why?
+1) Who is not supposed to use this technology? Why?
 
 - I don't think there is anyone that shouldn't
 use this technology. It is meant to be more of a
@@ -205,7 +205,7 @@ they should consider how their materials would be effected by
 it and how it would effect those materials to be stacked in a
 tower-like structure instead of however they were to usually package it.
 
-4) How can the type of robotic application implemented in your
+1) How can the type of robotic application implemented in your
 project cause harm?
 
 - I think that it could cause harm in factories if it took
@@ -213,7 +213,7 @@ away jobs. I also think it could potentially harm materials
 or people if it was used in a factory setting and not adjusted
 for that factory's specific needs.
 
-5) What solutions can be developed to avoid the harm
+1) What solutions can be developed to avoid the harm
 caused by this type of technology or to fix the harm?
 
 - I think that in order to fix the problem of this technology,
