@@ -137,19 +137,19 @@ Based on your experiences with the project and from our discussions in class, pl
 
 - I think a factory might use code similar to this with a robotic arm if they were trying to stack certain materials or blocks in a pyramid for shipment or storage. They might not have the robot stack things in this way, but the similarities are still present.
 
-1. Who are the intended users of this robotic application? How does this technology benefit them?
+2. Who are the intended users of this robotic application? How does this technology benefit them?
 
 - I think the intended users of this application could honestly be children. The code is complex, but it would be a really great way to get them to experience robotics in a way that shows something familiar to them (I know that I did a lot of cup stacking when I was little). However, like I said in the previous question, I do think that this application has a lot of potential for factory implementation because it would allow them to stack things in an organized way.
 
-1. Who is not supposed to use this technology? Why?
+3. Who is not supposed to use this technology? Why?
 
 - I don't think there is anyone that shouldn't use this technology. It is meant to be more of a fun game than anythything else and I think that that is something that everyone should be allowed to experience, but I also think that if factories were to start using this code, they should consider how their materials would be effected by it and how it would effect those materials to be stacked in a tower-like structure instead of however they were to usually package it.
 
-1. How can the type of robotic application implemented in your project cause harm?
+4. How can the type of robotic application implemented in your project cause harm?
 
 - I think that it could cause harm in factories if it took away jobs. I also think it could potentially harm materials or people if it was used in a factory setting and not adjusted for that factory's specific needs.
 
-1. What solutions can be developed to avoid the harm caused by this type of technology or to fix the harm?
+5. What solutions can be developed to avoid the harm caused by this type of technology or to fix the harm?
 
 - I think that in order to fix the problem of this technology, new jobs need to be created that are things that only humans can do. That or I think this robot implementation should only be used if there are no people willing to do that labor-intensive job anymore. I also think that making sure that this technology is altered for each specific factory environment is very important because it would help to keep safety and efficiency levels in a good place.
 
