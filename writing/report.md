@@ -2,7 +2,7 @@
 
 ## Project Summary
 
-TODO: Describe the completed project. Provide motivation for your project, application that your robot is utilized for, specific goals/tasks it completes, and include any background references you used to develop the idea for your project (links are okay).
+Describe the completed project. Provide motivation for your project, application that your robot is utilized for, specific goals/tasks it completes, and include any background references you used to develop the idea for your project (links are okay).
 
 ## Project Implementation Details
 
@@ -127,7 +127,7 @@ sequence = [
 
 ## Experimental Results
 
-TODO: Conduct at least three experiments with your completed implementation, where something is varied in each experiment (for example changes in the environment). Produce visual representation of these experiments (pictures or videos). Describe your observations of the outcome of these experiments (how did the robot behave in these experiments? were there variations?).
+Conduct at least three experiments with your completed implementation, where something is varied in each experiment (for example changes in the environment). Produce visual representation of these experiments (pictures or videos). Describe your observations of the outcome of these experiments (how did the robot behave in these experiments? were there variations?).
 
 ## Ethical Implications
 
@@ -161,4 +161,4 @@ Describe the details of your team working strategy, specifically explain how did
 
 ## Challenges and Learning Experiences
 
-TODO: Discuss any challenges you have encountered during the work on this assignment and describe the biggest learning takeaways.
+Discuss any challenges you have encountered during the work on this assignment and describe the biggest learning takeaways.
