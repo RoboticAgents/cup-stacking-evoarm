@@ -205,7 +205,7 @@ they should consider how their materials would be effected by
 it and how it would effect those materials to be stacked in a
 tower-like structure instead of however they were to usually package it.
 
-4. How can the type of robotic application implemented in your 
+4. How can the type of robotic application implemented in your
 project cause harm?
 
 - I think that it could cause harm in factories if it took
@@ -237,7 +237,8 @@ fix hardware issues together. Trang was very good at fixing
 the hardware issues and Evelyn was very good at doing the coding,
 but both of us were present in order to help with those issues
 as well as add our opinions when making decisions regarding the
-project. Overall, I think we worked very well together and were able to accomplish a lot!
+project. Overall, I think we worked very well together and were able
+to accomplish a lot!
 
 ## Challenges and Learning Experiences
 
