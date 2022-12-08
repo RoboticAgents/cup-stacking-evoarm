@@ -15,13 +15,13 @@ In order to run this project one must:
 2.) Plug in the robot to a reliable outlet
     - making sure that all of the wiring is set up correctly as the 334 model has the tendency to have wires that disconnect
     - If the robot is working appropriately it will give you an indication that it is on and all the wires are working correctly (usually this is some form of motion that gets it to its home position).
-    
+
 3.) Now you should connect your laptop to the robot wifi connection
     - Turn the wifi on your computer off and back on (just to give it the chance to detect new networks)
     - look for a wifi connection called `Evoarmmini334` or `Evoarmmini###` with the hashtags representing the number of your evoarm
     - click on that wifi connection and give it a few second to fully connect
     - Once connected it should say something like: `No internet, secured`
-    
+
 4.) Now you can connect to the robot's online interface by typing this in your browser `http://10.10.0.1:9072/`
 
 5.) From there an interfact should pop up that allows you to manually drive the robot along with several other tabs along the top of the screen.
@@ -34,7 +34,7 @@ In order to run this project one must:
 
 9.) Click on the same `edit` button for `CupStacking` and clear whatever is in the contents section of the app.
     - make sure that this is a python file
-    
+
 10.) Paste this code block into the section that you just cleared:
 
 ```python
