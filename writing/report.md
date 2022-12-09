@@ -17,7 +17,8 @@ so it can create the cup tower without any human interference.
 Based on this project, we can program the robot's arm to grab any object
 to achieve the task that we want.
 The EvoArm has a gripper which can grab the mini cups,
-we programed it to make it only grabs one cup at a time and placed it in the right position.
+we programed it to make it only grabs one cup
+at a time and placed it in the right position.
 After coding and testing process,
 we have the robot to build the cup perfectly and have a video of it.
 
@@ -181,13 +182,15 @@ The robot picks up the first cup on the cup stack
 and moves to the tower position.
 Then, the first cup of the bottom layer is placed in the middle of the tower position.
 After that, the robot move back to the cup stack and pick up the second cup.
-This time the arm moves further to place the second cup at the right of the first cup.
+This time the arm moves further to place the second cup
+at the right of the first cup.
 And the third cup is placed at the left of the first cup.
 Now, we have the first layer.
 For the second layer, we need to placed two cups.
 The EvoArm grabs the cup from the cup stack
 and places the left and right cup respectively.
-After placed the cups the Arm goes up to make sure it does not touch any cups next to it.
+After placed the cups the Arm goes up
+to make sure it does not touch any cups next to it.
 Finally, the EvoArm places the last cup on top of the two cups in the middle layers,
 and we have the cup tower that we want to.
 
@@ -266,8 +269,6 @@ project. Overall, I think we worked very well together and were able
 to accomplish a lot!
 
 ## Challenges and Learning Experiences
-
-Discuss any challenges you have encountered during the work on this assignment and describe the biggest learning takeaways.
 
 We faced a lot of challenges while doing this project.
 The biggest challenge is the hardware inconsistency,
