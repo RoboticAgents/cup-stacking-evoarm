@@ -226,7 +226,7 @@ allow them to stack things in an organized way.
 
 - I don't think there is anyone that shouldn't
 use this technology. It is meant to be more of a
-fun game than anythything else and I think that that
+fun game than anything else and I think that that
 is something that everyone should be allowed to experience,
 but I also think that if factories were to start using this code,
 they should consider how their materials would be effected by
