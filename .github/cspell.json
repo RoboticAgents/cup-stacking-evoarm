@@ -30,11 +30,11 @@
         "pluginbase",
         "teleop",
         "ALIC",
-        "Evoarminni"
-        "Evoarmminni"
+        "Evoarminni",
+        "Evoarmminni",
         "Trang",
         "Hoang",
-        "wifi",
+        "wifi"
     ],
     "ignorePaths": [
         ".github/**"
