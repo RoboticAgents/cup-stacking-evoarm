@@ -1,134 +1,250 @@
-# Final Project: Robot Applications
+# Cup Stacking Arm
 
-## Table of Contents
+## Project Summary
 
-- [Timeline](#timeline)
-- [Class Community Guidelines](#class-community-guidelines)
-- [Summary](#summary)
-- [Team Assignments](#team-assignments)
-- [Core Requirements](#core-requirements)
-- [Project Ideas](#project-ideas)
-  - [GoPiGo3](#gopigo)
-  - [Bebop](#bebop)
-  - [evoarm](#evoarm)
-  - [turtlebot](#turtlebot)
-  - [robot simulation](#robot-simulation)
-- [Proposal](#proposal)
-- [Working Prototype and Progress Report](#working-prototype-and-progress-report)
-- [Project Demonstrations](#project-demonstrations)
-- [Assessment](#assessment)
-- [Receiving Assistance](#assistance)
+Our final project is the cup stacking program.
+We tried to stack six mini cups to make a cup tower.
+We used the EvoArmMini334 to grab the cups
+and place them correctly to build the tower.
+Our inspiration for this project is the cup tower challenge for the kids
+which teach them the design skills and promote creativity.
+With this project we want to prove that robots can do the tasks like human does.
+This project is great for community demonstration,
+as other people can see how the EvoArm creates the cup tower.
+The robot is controlled by a Python program which has the command tell it
+what to do while building the tower,
+so it can create the cup tower without any human interference.
+Based on this project, we can program the robot's arm to grab any object
+to achieve the task that we want.
+The EvoArm has a gripper which can grab the mini cups,
+we programed it to make it only grabs one cup
+at a time and placed it in the right position.
+After coding and testing process,
+we have the robot to build the cup perfectly and have a video of it.
 
-## Timeline
+![Cup Stacking Process](cups.png)
 
-Activity                                                                      | Deadline
------------------------------------------------------------------------------ | ------------------------------------------
-Create a team and complete proposal (including any additional hardware needs) | by 4:20pm on Thursday, November 17th, 2022
-Demonstrate progress during class work time (commits from each member)        | by 10:45am on Tuesday, November 22nd, 2022
-Working prototype and complete progress report                                | by 4:20pm on Thursday, December 1st, 2022
-Final demo and submission                                                     | by 9:30am on Tuesday, December 13th, 2022
+## Project Implementation Details
 
-## Class Community Guidelines
+First, outline all steps one must take to
+run your project, including any needed installations.
+Then describe **all** steps you took to implement the task,
+including all non-technical and technical details. Please include
+references (links are okay) to all resources you have used.
 
-Throughout the completion of this project you must adhere to the [community guidelines](https://github.com/CMPSC-311-Allegheny-College-Fall-2022/course-information/blob/main/community_guidelines.md) that we developed as a class. To report any violations of the code of conduct, please submit an [anonymous form](https://forms.gle/tePfnLY12hyN1Xbd6). Students who think that the class should revise some aspect of the guidelines must use the GitHub issue tracker for that repository to suggest, discuss, and implement any required changes.
+In order to run this project one must:
 
-By working on and completing this assignment you agree to use the hardware given to you in a responsible manner. Each team is responsible for the safety and security of the robot while it is in your possession. You are allowed to take the robots used in this project outside of ALIC but you have to return all parts at the completion of this project, or if requested, at the end of the semester.
+1) Obtain the required Evoarmminni from the Allegheny
+ALIC Lab (or obtain and build a new Evoarm Mini Model)
 
-## Summary
+2) Plug in the robot to a reliable outlet
+    - making sure that all of the wiring is set up
+    correctly as the 334 model has the tendency to have wires
+    that disconnect.
+    - If the robot is working appropriately it will give you an
+    indication that it is on and all the wires are working correctly.
+    (usually this is some form of motion that gets it to its home position).
 
-This project assignment invites you to work in individually or in a team of two or three to implement a robot fulfilling a specific goal/task. Your project should design and implement a robotic system for some application of your choice using one of the robotic platforms used in this course. You could select to design and implement a multi-robot system, where more than one robot complete the goal/task, in which case it might be appropriate for two or more teams to collaborate.
+3) Now you should connect your laptop to the robot wifi connection
+    - Turn the wifi on your computer off and back on
+    (just to give it the chance to detect new networks).
+    - look for a wifi connection called `Evoarmmini334` or
+    `Evoarmmini###` with the hashtags representing the number
+    of your evoarm.
+    - click on that wifi connection and give it a few second to fully connect
+    - Once connected it should say something like: `No internet, secured`
 
-## Team Assignments
+4) Now you can connect to the robot's online interface
+by typing this in your browser `http://10.10.0.1:9072/`
 
-You are invited to work in a self-selected team of two or three. Alternatively, you are also able to work individually. Once you have identified your team or that you prefer to work individually, please indicate it in the [team assignments](https://docs.google.com/spreadsheets/d/1167k-1ZGXR8TJqWdfp61kC7IDzhSVTUTHP7-Urx7ehc/edit?usp=sharing) spreadsheet so that we can ensure we have enough robots for everyone's preferences.
+5) From there an interface should pop up that allows
+you to manually drive the robot along with several other
+tabs along the top of the screen.
 
-## Core Requirements
+6) Type on the `Apps` tab and you will notice that a list
+of different applications for running the evoarm come up.
 
-1. Your project must be approved by the instructor before you start working on it. The instructor will assess the viability of proposed projects after the lab session on November 17th and provide feedback via a review in GitHub Classroom pull request.
-2. Your project must be developed for a specific application using a robotic system. You need to research the problem you select to get an idea of what has been already done. You must include references to existing work in your final report and justify why using your particular system is appropriate.
-3. Your project must have an implementation component. You may write your code from scratch or reuse and extend some existing code. Obviously, anything you use that is not yours must be documented (in the source code and in the report).
-4. Your project must be extensive enough to qualify as a project (think of an extension for one of the lab projects), but not too extensive so that you can not finish it by the deadline.
+7) For one of these apps (preferably one written in python) scroll
+to the far right hand side of the screen and click on the
+little box that says `edit`.
 
-## Project Ideas
+8) Once you're there you will see a box that says `name`
+Rename the task to `CupStacking.py` and click either `save`
+or `save a copy`. This will create a new document back on the apps
+screen that you can edit.
 
-You are welcome to reuse existing code but you must either customize it or extend it. Taking existing code and just getting it to work does not constitute a project! Below are some ideas and resources, you are welcome to use your own search wizardry to find other helpful resources.
+9) Click on the same `edit` button for `CupStacking` and clear
+whatever is in the contents section of the app.
+    - make sure that this is a python file
 
-### gopigo
+10) Paste this code block into the section that you just cleared:
 
-- [Dexter Industries sample projects](https://github.com/DexterInd/GoPiGo3/tree/master/Projects):
+```python
+#example
+#populate the sequence array with the commands you want in your sequence
+#each entry must have a "command" value
+#copy this script from the Apps screen to make your own python apps
 
-  - object avoidance robot
-  - empathy bot
-  - lane or object tracker
-  - compass robot
+sequence = [
+     { "command": "d:-15","delay": 1.0  },
+     { "command": "a:+32","delay": 1.0  },
+     { "command": "x:+30","delay": 1.0  },
+     { "command": "y:-25","delay": 1.0  },
+     { "command": "e:-74","delay": 2.0  },
+     { "command": "y:+55","delay": 2.0  },
+     { "command": "a:-50","delay": 1.0  },
+     { "command": "f:+15","delay": 1.0  },
+     { "command": "y:-90","delay": 2.0  },
+     { "command": "e:+55","delay": 2.0  },
 
-- [ROS with gopigo](https://github.com/ros-gopigo3/gopigo3) (includes teleop). Another [ROS2 with gopigo reference](https://github.com/slowrunner/ROS2-GoPiGo3).
+     { "command": "y:+75","delay": 1.0  },
+     { "command": "a:+52","delay": 1.0  },
+     { "command": "y:-55","delay": 1.0  },
+     { "command": "e:-72","delay": 2.0  }, 
+     { "command": "y:+75","delay": 2.0  },
+     { "command": "a:-66","delay": 1.0  },
+     { "command": "f:+15","delay": 2.0  },
+     { "command": "x:-10","delay": 2.0  },
+     { "command": "y:-90","delay": 3.0  },
+     { "command": "e:+7","delay": 2.0   },
 
-### bebop
+     { "command": "y:+75","delay": 1.0  },
+     { "command": "e:+50","delay": 1.0  },
+     { "command": "a:+64","delay": 1.0  },
+     { "command": "x:+10","delay": 1.0  },
+     { "command": "y:-80","delay": 3.0  },
+     { "command": "e:-80","delay": 3.0  }, 
+     { "command": "y:+75","delay": 2.0  },
+     { "command": "a:-35","delay": 1.0  },
+     { "command": "f:+15","delay": 1.0  },
+     { "command": "y:-95","delay": 3.0  },
+     { "command": "x:+10","delay": 2.0  },
+     { "command": "e:+7","delay": 3.0   },
+     { "command": "e:+55","delay": 1.0  },
 
-- Search and rescue using drones. Can be implemented using pyparrot with Bebop drones and a search algorithm, such as A*.
-- Product delivery to a specific location using drones and pyparrot library.
-- Capture the flag using drones and AR Code reader. Can be implemented using pyparrot and [ar-markers library](https://github.com/pablodiegoss/pymarker).
+     { "command": "y:+90","delay": 1.0  },
+     { "command": "a:+34","delay": 1.0  },
+     { "command": "y:-95","delay": 1.0  },
+     { "command": "e:-75","delay": 2.0  }, 
+     { "command": "y:+75","delay": 2.0  },
+     { "command": "a:-43","delay": 1.0  },
+     { "command": "x:-10","delay": 1.0  },
+     { "command": "f:+15","delay": 1.0  },
+     { "command": "y:-75","delay": 1.0  },
+     { "command": "e:+60","delay": 1.0  },
 
-### evoarm
+     { "command": "y:+80","delay": 1.0  },
+     { "command": "a:+45","delay": 1.0  },
+     { "command": "x:+15","delay": 2.0  },
+     { "command": "y:-85","delay": 1.0  },
+     { "command": "e:-70","delay": 2.0  },
+     { "command": "y:+100","delay": 2.0 },
+     { "command": "a:-61","delay": 1.0  },
+     { "command": "x:-10","delay": 1.0  },
+     { "command": "f:+15","delay": 1.0  },
+     { "command": "y:-77","delay": 1.0  },
+     { "command": "e:+7","delay": 1.0   }, 
+     { "command": "y:+85","delay": 2.0  },
+     { "command": "e:+45","delay": 1.0  },
 
-- Tick Tac Toe, Towers of Hanoi, or other game using arm manipulation.
-- Warehouse box manipulation.
-- Drawing.
-- [Alternate arm control](https://github.com/Atli-A/RobotWebControl)
+     { "command": "a:+61","delay": 1.0  },
+     { "command": "y:-113","delay": 1.0 },
+     { "command": "x:+5","delay": 1.0  },
+     { "command": "e:-90","delay": 3.0  },
+     { "command": "y:+113","delay": 2.0 },
+     { "command": "a:-55","delay": 1.0  },
+     { "command": "y:-50","delay": 2.0  },
+     { "command": "e:+60","delay": 2.0  },
+     { "command": "y:+60","delay": 1.0  }
+]
+```
 
-### turtlebot
+1) From here you should be able to press the home button
+to make sure that the robot is in its home position and
+then run the code using the play button in the top left corner.
 
-- [Various navigation strategies](https://github.com/turtlebot/turtlebot4_tutorials/tree/galactic/turtlebot4_python_tutorials/turtlebot4_python_tutorials) with [turtlebot 4 navigator](https://turtlebot.github.io/turtlebot4-user-manual/tutorials/navigation.html#turtlebot-4-navigator).
-- Object recognition. See the bottom of [TurtlebotIsGo Unit](https://github.com/turtlebot/TurtleBot4Lessons/blob/main/units/Unit00-TB4-Introduction/L02-TurtleBotIsGo/U00-L02-TurtleBotIsGo.md) to see how to enable the camera in RViz.
-- Multi-robot information exchange using ROS for some task, for example sending command from one turtlebot to another.
+2) Things to note:
+    - Due to the hardware being inconsistent, you
+    may have to make adjustments to the code.
+    - When we did this project, we decided to cut out
+    little circles of cardboard so that the cups wouldn't shift
+    around as they landed. We also decided to prop the cup stack
+    on a box because the robot arm wasn't able to move all the way
+    to the ground to place the cups.
 
-### Robot Simulation
+3) Happy Cup Stacking!
 
-- Implement an application task using a [Turtlebot 4 simulation](https://github.com/turtlebot/TurtleBot4Lessons/blob/main/units/Unit00-TB4-Introduction/L01-IgnitionBlastoff/U00-L01-IgnitionBlastoff.md).
-- Implement an application task in [Gazebo](https://classic.gazebosim.org/tutorials).
+## Experimental Results
 
-## Proposal
+Our cup tower is made of total six cups.
+The cups tower has 3 layers which are the bottom layer: 3 cups,
+the middle layer: 2 cups and the top layer: 1 cup.
+First, we code some commands for the robot to make the first layer.
+The robot picks up the first cup on the cup stack
+and moves to the tower position.
+Then, the first cup of the bottom layer is placed in the middle of the tower position.
+After that, the robot move back to the cup stack and pick up the second cup.
+This time the arm moves further to place the second cup
+at the right of the first cup.
+And the third cup is placed at the left of the first cup.
+Now, we have the first layer.
+For the second layer, we need to placed two cups.
+The EvoArm grabs the cup from the cup stack
+and places the left and right cup respectively.
+After placed the cups the Arm goes up
+to make sure it does not touch any cups next to it.
+Finally, the EvoArm places the last cup on top of the two cups in the middle layers,
+and we have the cup tower that we want to.
 
-You are invited to develop a project idea by the end of the lab session on November 17th. In the proposal document, please address all TODO tags that ask you to document your idea, outline acceptance criteria, illustrate its feasibility, and indicate whether additional hardware is needed. The instructor will provide feedback soon after proposal submission and may ask to adjust the proposed idea or its acceptance criteria.
+## Ethical Implications
 
-## Working Prototype and Progress Report
+1) Who would typically make the technology of the similar
+type as your project? Why?
 
-During the lab session on Thursday, December 1st, each team will participate in demonstrating their working prototype. Prototype here means a functional but not a final version of a robotic system. This prototype should contain implementation of partial functionality of your project idea. This prototype should be ready to be demonstrated during the robotics community event. You are also responsible for complete a progress report document by the end of the lab session on December 1st.
+- I think a factory might use code similar to this with
+a robotic arm if they were trying to stack certain materials
+or blocks in a pyramid for shipment or storage. They might not
+have the robot stack things in this way, but the similarities
+are still present.
 
-## Project Demonstrations
+2) Who are the intended users of this robotic
+application? How does this technology benefit them?
 
-At the beginning of the class session on Thursday, December 13th, each team will be given an opportunity to demonstrate their project. When the class session starts, teams will be given a few minutes to set up their demonstrations and get them running. Then, class members will participate in an interactive demonstration session, where everyone will be able to view each demonstration.
+- I think the intended users of this application could
+honestly be children. The code is complex, but it would
+be a really great way to get them to experience robotics
+in a way that shows something familiar to them (I know that
+I did a lot of cup stacking when I was little). However, like
+I said in the previous question, I do think that this application
+has a lot of potential for factory implementation because it would
+allow them to stack things in an organized way.
 
-## Assessment
+3) Who is not supposed to use this technology? Why?
 
-The grade that a student receives on this assignment will have the following components.
+- I don't think there is anyone that shouldn't
+use this technology. It is meant to be more of a
+fun game than anything else and I think that that
+is something that everyone should be allowed to experience,
+but I also think that if factories were to start using this code,
+they should consider how their materials would be effected by
+it and how it would effect those materials to be stacked in a
+tower-like structure instead of however they were to usually package it.
 
-- **GitHub Actions CI Build Status [up to 5%]:**: For final project repository associated with this assignment students will receive a checkmark grade if their last before-the-deadline build passes.
+4) How can the type of robotic application implemented in your
+project cause harm?
 
-- **Mastery of Verbal Explanation during the Demonstration [up to 15%]:**: Since the ability to communicate technical details of a project is crucial to building successful software and hardware applications, a portion of students' project grade will be determined based on the quality of the project demonstration during prototype and final demonstrations.
+- I think that it could cause harm in factories if it took
+away jobs. I also think it could potentially harm materials
+or people if it was used in a factory setting and not adjusted
+for that factory's specific needs.
 
-- **Mastery of Technical Writing [up to 25%]:**: Students will also receive a part of their grade when the responses to the writing prompts presented in the `report.md` reveal a proficiency of both writing skills and technical knowledge. To receive full points of this component, the submitted writing should have correct spelling, grammar, and punctuation in addition to following the rules of Markdown and providing complete and conceptually and technically accurate answers.
+5) What solutions can be developed to avoid the harm
+caused by this type of technology or to fix the harm?
 
-  - Please note that the "Check Spelling" GitHub Actions check may flag proper nouns or other real words if the dictionary it uses does not contain them. If your "Check Spelling" GitHub Actions check is failing due to a correctly spelled word being incorrectly flagged as "unknown" by CSpell, you will need to add the word to the list of words in `.github/cspell.json`.
-
-- **Mastery of Technical Knowledge and Skills [up to 55%]**: Students will receive a portion of their assignment grade when their project design and implementation reveals that they have mastered all of the technical knowledge and skills developed during the completion of this project. Any written programs must be inside `src/` directory. As a part of this grade, the instructor will assess aspects of the project including, but not limited to, the appropriate design of the robot task, the completeness and correctness of the implemented software, effectiveness of experiments, the use of effective source code comments and Git commit messages, and satisfaction of the acceptance criteria set up by the team.
-
-- **Continuous Progress [up to 40% deducted points]**: To ensure equal team effort and timely troubleshooting, students may lose up to 40% of points from their final deliverable for not demonstrating continuous team effort on this project. Each activity not submitted by the stated deadline in the [Timeline](#timeline) section by ALL team members will result in -10% unless the effected team member or the whole team (if the entire team was effected) can demonstrate circumstances beyond their control (e.g., illness, hardware challenges unsolvable in time, etc.).
-
-All grades for this project will be reported through a student's gradebook GitHub repository.
-
-### GatorGrade
-
-You can check the baseline writing and commit requirements of this project by running department's assignment checking `gatorgrade` tool. To use `gatorgrade`, you first need to make sure you have Python installed. Then, you need to install `gatorgrade`:
-
-- First, [install `pipx`](https://pypa.github.io/pipx/installation/)
-- Then, install `gatorgrade` with `pipx install gatorgrade`
-
-Finally, you can run `gatorgrade` to check baseline writing and commit requirements:
-
-`gatorgrade --config config/gatorgrade.yml`
-
-## Assistance
-
-If you are having trouble completing any part of this project, then please talk with the course instructor during the laboratory session. Alternatively, you may ask questions in the Discord channel for this course. Finally, you can schedule a meeting during the course instructor's office hours.
+- I think that in order to fix the problem of this technology,
+new jobs need to be created that are things that only humans can do.
+That or I think this robot implementation should only be used if there
+are no people willing to do that labor-intensive job anymore.
+I also think that making sure that this technology is altered
+for each specific factory environment is very important because
+it would help to keep safety and efficiency levels in a good place.

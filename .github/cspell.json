@@ -5,6 +5,12 @@
     // list of words to always be considered correct (may need additions later)
     "words": [
         "pipx",
+        "Hoang",
+        "Trang",
+        "Evoarm",
+        "Evoarmmini",
+        "EvoarmMini",
+        "CupStacking",
         "pytest",
         "pylint",
         "taskipy",
@@ -22,7 +28,13 @@
         "JJ",
         "sheetshuttle",
         "pluginbase",
-        "teleop"
+        "teleop",
+        "ALIC",
+        "Evoarminni",
+        "Evoarmminni",
+        "Trang",
+        "Hoang",
+        "wifi"
     ],
     "ignorePaths": [
         ".github/**"
